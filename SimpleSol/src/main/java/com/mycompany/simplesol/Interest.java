@@ -9,7 +9,7 @@ public class Interest {
     public double calculateInterest(String accountType, double accountBalance) {
         switch (accountType) {
             case "CURRENT": 
-                return accountBalance * (0.02 / 12);
+                return accountBalance * (0.02 / 12); 
 
             case "SAVINGS": 
                 return accountBalance * (0.04 / 12);
