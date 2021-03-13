@@ -9,7 +9,7 @@ public class DPATSimpleSolution {
         Interest itrstSavings = new Interest();
         Interest itrstLoan = new Interest();
         
-        double balanceAmount;
+        double balanceAmount; 
         double interestLoan, interestCurrent, interestSavings;
         
         balanceAmount = 100000;
