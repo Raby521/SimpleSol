@@ -3,7 +3,7 @@ package com.mycompany.simplesol;
 import java.text.DecimalFormat;
 
 public class DPATSimpleSolution {
-    public static void main(String[] args) {
+    public static void main(String[] args) {  
         DecimalFormat df = new DecimalFormat("####0.00");
         Interest itrstCurrent = new Interest();
         Interest itrstSavings = new Interest();
